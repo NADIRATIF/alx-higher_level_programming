@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+def fizzbuzz():
+    for i in range(1, 100 + 1):
+        if i % 3 == 0:
+            print(f"Fizz", end=(" "))
+        elif i % 5 == 0:
+            print(f"Buzz", end=(" "))
+        else:
+            print(i, end=(" "))
