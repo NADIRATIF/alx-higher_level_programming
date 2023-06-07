@@ -8,6 +8,6 @@ def pow(a, b):
         for i in range(abs(b)):
             p /= a
     if a < 0 and b < 0:
-        return "{:.16e}".format(p)
+        return "{:.15e}".format(p)
     else:
         return p
