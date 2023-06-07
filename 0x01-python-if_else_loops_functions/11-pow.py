@@ -9,5 +9,5 @@ def pow(a, b):
             p /= a
     if a < 0 and b < 0:
         return "{:.20e}".format(p)
-    else
+    else:
         return p
