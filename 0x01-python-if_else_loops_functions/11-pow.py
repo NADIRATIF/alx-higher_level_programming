@@ -7,5 +7,7 @@ def pow(a, b):
     else:
         for i in range(abs(b)):
             p /= a
-
-    return p
+    if a < 0 and b < 0:
+        return "{:.20e}".format(p)
+    else
+        return p
